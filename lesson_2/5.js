@@ -11,12 +11,19 @@ function division(a,b){
 }
 
 function multiplication(a,b){
-    return a/b;
+    if(b==0){
+        return ("На ноль делить нельзя");
+    }else{
+        return a/b;
+    }
 }
 
-var firstValue=12, secondValue=3;
+var firstValue, secondValue;
 
-alert("Заданиеa 5: \n" + "Результат функции сложеня: " + addition(firstValue,secondValue) + "\n"
+firstValue = +prompt("Урок 2\n" + "Задания 5: \n" + "Введите произвольное значение для \"a\":");
+secondValue = +prompt("Урок 2\n" + "Задания 5: \n" + "Введите произвольное значение для \"b\":");
+
+alert("Урок 2\n" + "Заданиеa 5: \n" + "Результат функции сложеня: " + addition(firstValue,secondValue) + "\n"
     + "Результат функции вычитания: " + subtraction(firstValue,secondValue) + "\n"
     + "Результат функции умножения: " + division(firstValue,secondValue) + "\n"
     + "Результат функции деления: " + multiplication(firstValue,secondValue));
