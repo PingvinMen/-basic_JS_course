@@ -1,0 +1,20 @@
+.slider{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.slider__png{
+    display: flex;
+    justify-content: center;
+}
+#bigPng{
+    display: flex;
+    justify-content: center
+}
+.slider__nav{
+    display: flex;
+    justify-content: space-around;
+}
+#minPng{
+    display: block;
+}
