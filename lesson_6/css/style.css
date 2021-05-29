@@ -1,3 +1,14 @@
+/*Общий стиль*/
+li {
+    list-style-type: none;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+/*//Общий стиль*/
+
+/*Слайдер*/
 .slider{
     max-width: 1000px;
     display: flex;
@@ -18,3 +29,22 @@
 #minPng{
     display: block;
 }
+/*//Слайдер*/
+
+/*Корзина*/
+.basket{
+    display: flex;
+    border: 2px solid #000;
+    flex-direction: column;
+    max-width: 400px;
+}
+.total{
+    display: flex;
+}
+.products{
+    display: flex;
+    border: 2px solid #000;
+    flex-direction: column;
+    max-width: 400px;
+}
+/*Корзина*/
