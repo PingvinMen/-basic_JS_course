@@ -31,15 +31,27 @@
         </div>
 
         <div class="shop">
-            <div id="basket">
+            <div class="basket" id="basket">
                 <h1>Корзина</h1>
-                <ul id="basketProduct">
-
-                </ul>
-                <p>Итог:</p><p id="sumMoney"></p>
+                <ul id="basketProduct"></ul>
+                <div class="total">
+                    <p>Итог:</p><p id="sumMoney">0</p>
+                </div>
             </div>
-            <div id="products">
-
+            <div id="products1" class="products">
+                <p class="name" id="productsName1">Вещь 1</p>
+                <p class="price" id="productsPrice1">150</p>
+                <button onclick="addProduct(this.parentElement.id)">В корзину</button>
+            </div>
+            <div id="products2" class="products">
+                <p class="name" id="productsName2">Вещь 2</p>
+                <p class="price" id="productsPrice2">1300</p>
+                <button onclick="addProduct(this.parentElement.id)">В корзину</button>
+            </div>
+            <div id="products3" class="products">
+                <p class="name" id="productsName3">Вещь 3</p>
+                <p class="price" id="productsPrice3">6000</p>
+                <button onclick="addProduct(this.parentElement.id)">В корзину</button>
             </div>
         </div>
     </body>
